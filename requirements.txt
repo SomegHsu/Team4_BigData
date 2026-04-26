@@ -1,0 +1,11 @@
+# Dashboard dependencies
+streamlit
+plotly
+pandas
+openai
+
+# Analysis dependencies (Databricks environment — install locally only if running outside Databricks)
+# pyspark  # provided by Databricks runtime
+numpy
+matplotlib
+seaborn

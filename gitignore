@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Credentials — never commit these
+*.pem
+*.key
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — large files go to Google Drive, not GitHub
+*.csv
+*.gz
+*.zip
+*.parquet
+dashboard_sample_data/
+
+# OS
+.DS_Store
+Thumbs.db
